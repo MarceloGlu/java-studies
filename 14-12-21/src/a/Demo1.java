@@ -1,9 +1,8 @@
 package a;
 
-public class Demo1Arrays {
+public class Demo1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//create an array of int
 		int [] arr = new int[5];
 		System.out.println("length " + arr.length);
