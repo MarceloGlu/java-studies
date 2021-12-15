@@ -10,6 +10,9 @@ public class Demo1 {
 		//Assignment of 7 to arr[3]
 		arr[3] = 7;
 		
+		//Assignment of 5 to arr[1]
+		arr[1] = 5;
+		
 		//print the array elements
 		System.out.println(arr[0]);
 		System.out.println(arr[1]);
@@ -17,7 +20,9 @@ public class Demo1 {
 		System.out.println(arr[3]);
 		System.out.println(arr[4]);
 				
-		//Si escribiera index 5 me responde que esta out of range for length 5
+		// El array se cuenta desde 0. Si escribiera index 5 me responderia que esta
+		// out of range for length 5. 
+	
 	}
 
 
