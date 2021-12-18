@@ -26,7 +26,7 @@ public class App4 {
 		}
 
 		// loop
-		System.out.println("For a variable i that goes from 1 to 10, print all its instances.");
+		System.out.println("For an index i that goes from 1 to 10, print all its instances.");
 		for (int i = 1; i <= 10; i++) {
 			System.out.print(i + ", ");
 		}
