@@ -21,7 +21,7 @@ public class Demo1 {
 		System.out.println(arr[4]);
 				
 		// El array se cuenta desde 0. Si escribiera index 5 me responderia que esta
-		// out of range for length 5. 
+		// System.out.println(arr[5]); out of range for length 5. 
 	
 	}
 
