@@ -1,29 +1,25 @@
 package app.core;
 
 public class Book {
-	
+
 	private String isbn;
 	private String title;
 	private String author;
 	private int price;
-	
-	// constructor
-	
+
+	// constructor 1
+
 	public Book() {
-		
+
 	}
-	// constructor
-	
+	// constructor 2
+
 	public Book(String isbn, String title, String author, int price) {
 		this.isbn = isbn;
 		this.title = title;
 		this.author = author;
 		this.price = price;
 	}
-	
-	
-	
-	
 
 	public String getIsbn() {
 		return isbn;
@@ -58,4 +54,3 @@ public class Book {
 	}
 
 }
-
