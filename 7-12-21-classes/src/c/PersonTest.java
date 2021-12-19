@@ -1,4 +1,4 @@
-package b;
+package c;
 
 public class PersonTest {
 

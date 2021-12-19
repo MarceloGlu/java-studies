@@ -1,8 +1,8 @@
 package d;
 
-import a.Car;
 import a.Point;
-import b.Person;
+import b.Car;
+import c.Person;
 
 public class PersonTest {
 
