@@ -8,12 +8,11 @@ public class Book {
 	private int price;
 
 	// constructor 1
-
 	public Book() {
 
 	}
-	// constructor 2
 
+	// constructor 2
 	public Book(String isbn, String title, String author, int price) {
 		this.isbn = isbn;
 		this.title = title;

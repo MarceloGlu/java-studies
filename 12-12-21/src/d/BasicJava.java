@@ -1,5 +1,7 @@
 package d;
 
+import a.Point;
+
 public class BasicJava {
 
 	public static void main(String[] args) {
