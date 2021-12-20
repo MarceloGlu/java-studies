@@ -1,4 +1,4 @@
-package d;
+package g.random;
 
 public class Demo2 {
 
@@ -10,9 +10,9 @@ public class Demo2 {
 		int x = (int) (Math.random() * 101);
 		int y = (int) (Math.random() * 101);
 		System.out.println(x + " + " + y + " = " + (x+y));
-		System.out.println(x + " + " + y + " = " + (x-y));
-		System.out.println(x + " + " + y + " = " + (x*y));
-		System.out.println(x + " + " + y + " = " + (x/y));
+		System.out.println(x + " - " + y + " = " + (x-y));
+		System.out.println(x + " * " + y + " = " + (x*y));
+		System.out.println(x + " / " + y + " = " + (x/y));
 		
 		//Random is a function that gives an arbitrary number between 0 and almost 1, 0 - 0.999999;
 		//by multiplying it I can get different numbers... in the example above we used integers,

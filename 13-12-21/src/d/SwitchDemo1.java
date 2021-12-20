@@ -1,15 +1,16 @@
 package d;
 
-public class Demo5 {
+public class SwitchDemo1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		//Switch
 		
-		//String mode = "off";
-		String mode = "on";
-		//String mode = "standby";
+		String mode;
+		mode= "off";
+	//	mode = "on";
+	//	mode = "standby";
 		
 		switch(mode) {
 		case "off":
@@ -25,7 +26,7 @@ public class Demo5 {
 		
 		/* Switch va pasando por todos los casos, desde el primero que esta activo.
 		 * para que esto no suceda pongo un break, de modo que cuando encuentra el primer
-		 * switch activo sale del programay termina*/
+		 * switch activo sale del programa y termina*/
 
 	}
 

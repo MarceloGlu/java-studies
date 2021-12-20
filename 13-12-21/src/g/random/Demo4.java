@@ -1,9 +1,9 @@
-package d;
+package g.random;
 
 public class Demo4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		int m = (int) (Math.random()*11);
 		System.out.println(m);
