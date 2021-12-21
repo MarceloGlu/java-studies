@@ -10,7 +10,7 @@ public class Exercise {
 		while (true) {
 			try {
 				System.out.println("enter first number: ");
-				int a = Integer.parseInt(sc.nextLine);
+				int a = Integer.parseInt(sc.nextLine());
 				System.out.println("enter second number: ");
 				int b = sc.nextInt();
 				System.out.println(a + " + " + b + " = " + (a + b));
