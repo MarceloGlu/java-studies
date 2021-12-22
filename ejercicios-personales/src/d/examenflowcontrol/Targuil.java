@@ -14,7 +14,7 @@ public class Targuil {
 		for (int i = 0; i < nums1.length; i++) {
 			System.out.print(nums1[i] + " ");			
 		}
-		
+				
 		int[] nums2 = new int[25];
 		for (int i = 0; i < nums2.length; i++) {
 			nums2[i] = (int) (Math.random() * 10);
