@@ -6,9 +6,7 @@
 	<classpathentry kind="src" path="15-12-21/src"/>
 	<classpathentry kind="src" path="16-12-21-class-design/src"/>
 	<classpathentry kind="src" path="6-12-21-first-project/src"/>
-	<classpathentry kind="src" path="7-12-21-classes/src"/>
 	<classpathentry kind="src" path="aaa/src"/>
-	<classpathentry kind="src" path="Exceptions/src"/>
 	<classpathentry kind="src" path="Lab1/src"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
