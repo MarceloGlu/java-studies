@@ -6,7 +6,7 @@ public class ArrayExample {
 		// this program randoms an array of numbers from 0 to 100
 		// and prints the avg and highest value
 
-		int[] nums = new int[100];
+		int nums[] = new int[100];
 		for (int i = 0; i < nums.length; i++) {
 			nums[i] = (int) (Math.random() * 101);
 		}
@@ -24,7 +24,7 @@ public class ArrayExample {
 			}
 
 		}
-		 System.out.println("");
+		System.out.println("");
 		int avg = totalSum / nums.length;
 
 		System.out.println("The highest number was: " + highest);
