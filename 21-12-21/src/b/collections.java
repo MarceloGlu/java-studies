@@ -6,6 +6,8 @@ import java.util.List;
 public class collections {
 
 	public static void main(String[] args) {
+		
+	
 
 		// create a list
 		List<String> list = new ArrayList<String>();
