@@ -1,3 +1,4 @@
+
 package d.examenflowcontrol;
 
 public class Targuil {
@@ -5,7 +6,7 @@ public class Targuil {
 	public static void main(String[] args) {
 		
 
-		int nums1[] = new int[25];
+		int[] nums1 = new int[25];
 		for (int i = 0; i < nums1.length; i++) {
 			nums1[i] = (int) (Math.random() * 10);					
 		}
