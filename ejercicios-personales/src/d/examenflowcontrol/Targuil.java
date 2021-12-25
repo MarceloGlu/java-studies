@@ -26,7 +26,10 @@ public class Targuil {
 			System.out.print(nums2[i] + " ");			
 		}
 		
-		System.out.println();		
+		System.out.println();	
+		
+		// Question 3
+		
 		}
 			 
 }
