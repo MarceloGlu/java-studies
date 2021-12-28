@@ -23,9 +23,16 @@ public class Demo1 {
 		// 2. create a DataOutputStream object to write the above data to file
 		
 	try (DataOutputStream out = new DataOutputStream(new FileOutputStream(file));){
+		// write the data
+		out.writeInt(n1);
+		out.writeByte(n2);
+		out.writeDouble(n3);
+		out.writeBoolean(b);
+		out.writeLong(n4);
 		
-		
-	} catch (FileNotFoundException e) {
+	
+	
+	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
