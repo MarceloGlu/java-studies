@@ -1,4 +1,6 @@
-package app.store.app;
+package app.store.main;
+
+import app.Store;
 
 public class StoreStatistics {
 
