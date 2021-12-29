@@ -11,4 +11,10 @@ public class Tomato extends Vegetable {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public String toString() {
+		return "Tomato [Weight=" + getWeight() + ", Color=" + getColor() + "]";
+	}
+	
+
 }

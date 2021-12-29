@@ -11,4 +11,10 @@ public class Strawberry extends Fruit {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public String toString() {
+		return "Strawberry [Weight=" + getWeight() + ", Color=" + getColor() + "]";
+	}
+	
+
 }
