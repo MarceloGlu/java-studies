@@ -5,6 +5,10 @@ public class Car {
 	private int number;		
 	private Speed[] speed = new Speed[0-110];
 	
+	public Car() {
+		super();
+	}
+	
 	public Car(int number, Speed[] speed) {
 		super();
 		this.number = number;
@@ -26,6 +30,8 @@ public class Car {
 	public void setSpeed(Speed[] speed) {
 		this.speed = speed;
 	}
+
+	
 	
 
 	
