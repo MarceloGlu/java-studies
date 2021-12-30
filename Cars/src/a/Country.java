@@ -1,20 +1,17 @@
 package a;
 
-public class Country {
-
-	public static void main(String[] args) {		
+public class Country {		
 		
-		Highway[] highways = new Highway[5];
-		for (int i = 0; i < highways.length; i++) {
-			
+		private Highway[] highways = new Highway[5];
+		
 				
-			}
+}			
 					
-		}
+	
 		
 		
 
-	}
+
 
 	
 
