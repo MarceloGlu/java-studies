@@ -1,4 +1,4 @@
-package d.lab3;
+package lab3;
 
 public class LeapYear {
 	

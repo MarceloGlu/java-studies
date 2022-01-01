@@ -1,8 +1,8 @@
-package a.helloworld;
+package helloworld;
 
 import java.util.Scanner;
 
-public class IfGrades {
+public class If_GradesExercise {
 
 	public static void main(String[] args) {
 

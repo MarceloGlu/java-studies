@@ -1,4 +1,4 @@
-package d.lab2;
+package lab2;
 
 public class RanNum {
 

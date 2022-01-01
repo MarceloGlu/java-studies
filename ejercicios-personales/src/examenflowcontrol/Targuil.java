@@ -1,5 +1,5 @@
 
-package e.examenflowcontrol;
+package examenflowcontrol;
 
 public class Targuil {
 	

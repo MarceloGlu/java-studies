@@ -1,4 +1,4 @@
-package c.loopsandarrays;
+package loopsandarrays;
 
 public class RandomCount {
 

@@ -1,4 +1,4 @@
-package d.lab1;
+package lab1;
 
 import java.lang.Math;
 

@@ -1,4 +1,4 @@
-package d.lab1;
+package lab1;
 
 public class Printer {
 	

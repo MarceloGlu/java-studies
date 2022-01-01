@@ -1,4 +1,4 @@
-package e.examenflowcontrol;
+package examenflowcontrol;
 
 public class Array0Example {
 	
