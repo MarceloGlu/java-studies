@@ -1,4 +1,4 @@
-package e.lab1;
+package d.lab1;
 
 public class BiggerValue {
 
