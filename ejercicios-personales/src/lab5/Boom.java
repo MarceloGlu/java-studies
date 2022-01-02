@@ -10,16 +10,6 @@ public class Boom {
 				System.out.println("BOOM");
 				continue;
 				}
-			System.out.println(i);
-			
-			// Prestar atención a continuación cómo trabaja con continue y label.
-			// El caso a resolver es que si hay un numero en el que todas
-			// o muchas de sus cifras son 7, no quiero imprimir BOOM por cada cifra
-			// sino solo una vez por el número. El "continue" abajo tiene un label
-			// que lo lleva al "for" arriba para chequear el próximo número en la
-			// lista de números. Si no tuviera el label saltaría una instancia y volvería
-			// al while. Si tengo el número 777, por ejemplo, no sirve. Por tanto vuelve
-			// al for y sigue con el número siguiente.
 			
 			int copy = i;
 			while (copy != 0 ) {
@@ -32,6 +22,18 @@ public class Boom {
 							// a 0 y se acaba el while loop
 				
 			}
+			System.out.println(i);
+			
+			// Prestar atención a continuación cómo trabaja con continue y label.
+			// El caso a resolver es que si hay un numero en el que todas
+			// o muchas de sus cifras son 7, no quiero imprimir BOOM por cada cifra
+			// sino solo una vez por el número. El "continue" abajo tiene un label
+			// que lo lleva al "for" arriba para chequear el próximo número en la
+			// lista de números. Si no tuviera el label saltaría una instancia y volvería
+			// al while. Si tengo el número 777, por ejemplo, no sirve. Por tanto vuelve
+			// al for y sigue con el número siguiente.
+			
+			
 			
 			
 		}
