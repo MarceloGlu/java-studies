@@ -2,7 +2,7 @@ package lab7;
 
 import java.util.Iterator;
 
-public class tar3 {
+public class SaraShara {
 	
 	public static void main(String[] args) {
 		
