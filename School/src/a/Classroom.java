@@ -3,8 +3,9 @@ package a;
 public class Classroom {
 
 	String name;
-	Student[] students = new Student[15];
 	Teacher teacher;
+	Student[] students = new Student[15];
+	
 	
 	public String getName() {
 		return name;
