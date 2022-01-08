@@ -1,6 +1,5 @@
-package a;
+package converters.currency;
 
-import converters.currency.CurrencyConverter;
 import converters.temperature.TemperatureConverter;
 
 public class Test1 {
