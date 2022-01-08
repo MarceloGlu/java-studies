@@ -2,7 +2,7 @@ package converters.currency;
 
 import java.util.*;
 
-public class Test {
+public class MyTest {
 
 	private static final Object PI = null;
 
