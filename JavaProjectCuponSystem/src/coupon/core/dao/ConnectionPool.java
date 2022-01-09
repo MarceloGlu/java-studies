@@ -44,7 +44,7 @@ public class ConnectionPool {
 		return instance;
 	}
 
-	private synchronized Connection getConnection() throws CouponSystemException {
+	public synchronized Connection getConnection() throws CouponSystemException {
 
 		if (!open) {
 			throw new CouponSystemException("getConnection failed = pool is closed");
