@@ -14,7 +14,7 @@ public class ConnectionPool {
 
 	public static final int SIZE = 5;
 	private boolean open; // false es el default
-	private String dbUrl = "jdbc: mysql://localhost:3306/coupon_system";
+	private String dbUrl = "jdbc:mysql://localhost:3306/coupon_system";
 	private String user = "root";
 	private String password = "1234";
 	private Set<Connection> connections = new HashSet<>();
@@ -37,7 +37,7 @@ public class ConnectionPool {
 			try {
 				instance = new ConnectionPool();
 			} catch (SQLException e) {
-				throw new CouponSystemException("connection pool failed to start, ec);");
+				throw new CouponSystemException("connection pool failed to start,);", e);
 			}
 
 		}
