@@ -15,7 +15,7 @@ public class CompanyDaoDb implements CompanyDao {
 
 		// 1. get a connection from pool
 		Connection con = ConnectionPool.getInstance().getConnection();
-		// 2. define the sql command as strin;
+		// 2. define the sql command as string with ? place holders;
 		String sql = "insert into company values(0,?,?,?)";
 		// 3. create a prepared statement
 		try (PreparedStatement pstmt = con.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS);) {
