@@ -17,7 +17,7 @@ public class CreateStatementAndExecuteInsertLoop {
 
 			Statement stmt = con.createStatement();
 
-			for (int i = 201; i <= 300; i++) {
+			for (int i = 101; i <= 200; i++) {
 
 				String sql = "insert into `person` values (" + i + ", 'p-" + i + "')";
 				stmt.executeUpdate(sql);
