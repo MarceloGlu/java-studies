@@ -15,8 +15,10 @@ public class FamilyCar implements Vehicle {
 	static int c; // this is just for generating new car numbers
 	
 	private int number = ++c;
-	@Value("${car.max.speed:80}")
-	private int masXpeed;
+	
+	// inject value from properties file - always text or numbers - not objects
+	@Value("${car.max.speed: -1}")
+	private int maxSpeed;
 	
 	// this is a dependency - helper class
 	// it needs to be injected by the container
@@ -39,12 +41,10 @@ public class FamilyCar implements Vehicle {
 		this.engine.switchOff();
 	}
 
-	public int getMasXpeed() {
-		return masXpeed;
+	public int getMaxSpeed() {
+		return maxSpeed;
 	}
-
-	public void setMasXpeed(int masXpeed) {
-		this.masXpeed = masXpeed;
-	}
+	
+	
 
 }
