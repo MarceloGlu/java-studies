@@ -7,6 +7,8 @@ public class Test {
 
 	public static void main(String[] args) {
 		
+	
+		
 		try {
 		Company company = new Company(0,"AAA", "AAA@gmail", "aaapassword");
 		CompanyDao companyDao = new CompanyDaoDb();
