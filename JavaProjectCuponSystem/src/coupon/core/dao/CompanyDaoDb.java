@@ -31,29 +31,61 @@ public class CompanyDaoDb implements CompanyDao {
 			int id = rsId.getInt(1);
 			// 7. return the id
 			return id;
-			}catch (SQLException e) {
-			//handle any possible exception
+		} catch (SQLException e) {
+			// handle any possible exception
 			throw new CouponSystemException("add company failed, e);");
-		} finally { //finally block will run before the return above
+		} finally { // finally block will run before the return above
 			// 8. finally
 			ConnectionPool.getInstance().restoreConnection(con);
+		}
+
 	}
-		
-	}
+
+	@Override
 	public boolean isCompanyExist(String email, String password) throws CouponSystemException {
 		Connection con = ConnectionPool.getInstance().getConnection();
 		String sql = "select * from company where email =? and password=?";
 		try (PreparedStatement pstmt = con.prepareStatement(sql);) {
-			pstmt.setString(1,  email);
-			pstmt.setString(2,  password);
+			pstmt.setString(1, email);
+			pstmt.setString(2, password);
 			ResultSet rs = pstmt.executeQuery();
 			return rs.next();
 		} catch (SQLException e) {
 			throw new CouponSystemException("isCompanyExist failed", e);
-		} finally {ConnectionPool.getInstance().restoreConnection(con);
-	}
-			
-			
+		} finally {
+			ConnectionPool.getInstance().restoreConnection(con);
 		}
+
 	}
 
+	@Override
+	public boolean isCompanyNameExist(String companyName) throws CouponSystemException {
+		Connection con = ConnectionPool.getInstance().getConnection();
+		String sql = "select * from company where name=?";
+		try (PreparedStatement pstmt = con.prepareStatement(sql);) {
+			pstmt.setString(1, companyName);
+			ResultSet rs = pstmt.executeQuery();
+			return rs.next();
+		} catch (SQLException e) {
+			throw new CouponSystemException("isCompanyNameExist failed", e);
+		} finally {
+			ConnectionPool.getInstance().restoreConnection(con);
+		}
+
+	}
+
+	@Override
+	public boolean isCompanyEmailExist(String companyEmail) throws CouponSystemException {
+		Connection con = ConnectionPool.getInstance().getConnection();
+		String sql = "select * from company where email=?";
+		try (PreparedStatement pstmt = con.prepareStatement(sql);) {
+			pstmt.setString(1, companyEmail);
+			ResultSet rs = pstmt.executeQuery();
+			return rs.next();
+		} catch (SQLException e) {
+			throw new CouponSystemException("isCompanyEmailExist failed", e);
+		} finally {
+			ConnectionPool.getInstance().restoreConnection(con);
+		}
+	}
+}
