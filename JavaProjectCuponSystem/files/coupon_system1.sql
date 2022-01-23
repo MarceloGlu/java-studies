@@ -1,5 +1,5 @@
--- create schema coupon_system;
--- use coupon_system;
+create schema coupon_system;
+use coupon_system;
 create table company(
 `id` int primary key auto_increment,
 `name` varchar(50),
