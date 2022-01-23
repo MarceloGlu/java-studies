@@ -20,7 +20,7 @@ public class Coupon {
 	private double price;
 	private String image;
 	
-	// Constructors, Getters, Setters, toString, hashcode and equals by id 
+	// add: CTORS, get/set, toString, hashCode, equals(by id)
 	
 	public Coupon() {
 		super();
