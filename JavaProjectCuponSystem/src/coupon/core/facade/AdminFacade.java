@@ -27,7 +27,9 @@ public class AdminFacade extends ClientFacade {
 		return this.companyDao.addCompany(company);
 	}
 
-	public static void main(String[] args) {
+
+	// copied to Test2
+	/*public static void main(String[] args) {
 
 		try {
 			AdminFacade af = new AdminFacade();
@@ -39,6 +41,6 @@ public class AdminFacade extends ClientFacade {
 			System.out.println("Error: " + e.getMessage());
 			e.printStackTrace();
 		}
-	}
+	}*/
 
 }
