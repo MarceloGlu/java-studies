@@ -13,7 +13,7 @@ public class Company {
 	
 	
 	
-	// add: CTORS, get/set, toString, hashCode = equals(by id)
+	// add: CTORS, get/set, toString, hashCode, equals(by id)
 	
 	
 	
