@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.eldar</groupId>
-	<artifactId>24-01-22-spring-data-jpa-eldar</artifactId>
+	<artifactId>24-01-22-spring-data-jpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>24-01-22-spring-data-jpa-eldar</name>
+	<name>24-01-22-spring-data-jpa</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
