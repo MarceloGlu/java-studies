@@ -16,7 +16,7 @@ public class ConnectionPool {
 	private boolean open; // false es el default
 	private String dbUrl = "jdbc:mysql://localhost:3306/coupon_system";
 	private String user = "root";
-	private String password = "1234";
+	private String password = "marc2022";
 	private Set<Connection> connections = new HashSet<>();
 
 	// singleton step 1 - define the single instance
