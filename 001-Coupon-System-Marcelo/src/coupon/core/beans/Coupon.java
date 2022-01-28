@@ -1,4 +1,4 @@
-package coupons.core.beans;
+package coupon.core.beans;
 
 import java.time.LocalDate;
 import java.util.Objects;
@@ -6,7 +6,7 @@ import java.util.Objects;
 public class Coupon {
 	
 	public enum Category {
-		Hotels, Tours, Museums, Restaurants, Pubs
+		FOOD, ELECTRICITY, RESTAURANT, VACATON, TRAVEL;
 	}
 	
 	private int id;
@@ -20,7 +20,7 @@ public class Coupon {
 	private double price;
 	private String image;
 	
-	// constructors, getters/setters, toString, hashCode and equals by id
+	// Constructors, Getters and Setters, toString, hashcode and equals by id
 	
 	public Coupon() {
 		super();
@@ -40,7 +40,7 @@ public class Coupon {
 		this.price = price;
 		this.image = image;
 	}
-
+	
 	public int getId() {
 		return id;
 	}
@@ -139,10 +139,13 @@ public class Coupon {
 			return true;
 		if (!(obj instanceof Coupon))
 			return false;
-		if (getClass() != obj.getClass())
-			return false;
 		Coupon other = (Coupon) obj;
 		return id == other.id;
 	}
-
+	
+	
 }
+
+
+
+

@@ -1,4 +1,4 @@
-package coupons.core.beans;
+package coupon.core.beans;
 
 import java.util.List;
 import java.util.Objects;
@@ -9,21 +9,24 @@ public class Company {
 	private String name;
 	private String email;
 	private String password;
-	private List<Coupon>coupons; // will remain null
+	private List<Coupon>coupons; //will remain null
 	
-	// constructors, getters/setters, toString, hashCode equals by id
 	
-	public Company() {
-		super();
-	}
-
-	public Company(int id, String name, String email, String password, List<Coupon> coupons) {
+	
+	// add: CTORS, get/set, toString, hashCode = equals(by id)
+	
+	
+	
+	public Company(int id, String name, String email, String password) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.email = email;
 		this.password = password;
-		this.coupons = coupons;
+	}
+
+	public Company() {
+		super();
 	}
 
 	public int getId() {
@@ -58,18 +61,9 @@ public class Company {
 		this.password = password;
 	}
 
-	public List<Coupon> getCoupons() {
-		return coupons;
-	}
-
-	public void setCoupons(List<Coupon> coupons) {
-		this.coupons = coupons;
-	}
-
 	@Override
 	public String toString() {
-		return "Company [id=" + id + ", name=" + name + ", email=" + email + ", password=" + password + ", coupons="
-				+ coupons + "]";
+		return "Company [id=" + id + ", name=" + name + ", email=" + email + ", password=" + password + "]";
 	}
 
 	@Override
@@ -86,6 +80,7 @@ public class Company {
 		Company other = (Company) obj;
 		return id == other.id;
 	}
+	
 	
 	
 	
