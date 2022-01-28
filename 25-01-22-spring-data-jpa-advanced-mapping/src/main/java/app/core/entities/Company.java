@@ -34,5 +34,5 @@ public class Company {
 	private String email;
 	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "address_id")	
-	private CompanyAddress address;
+	private Address address;
 }

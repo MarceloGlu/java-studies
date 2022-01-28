@@ -23,7 +23,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class CompanyAddress {
+public class Address {
 
 	@Id // primary key
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
